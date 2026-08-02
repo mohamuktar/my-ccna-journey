@@ -25,7 +25,7 @@ My primary learning resource is **[Jeremy's IT Lab — Free CCNA 200-301 Complet
 
 ## Progress Tracker
 
-- [ ] Day 01 — Network Devices
+- [x] Day 01 — Network Devices
 - [ ] Day 02 — Interfaces and Cables
 - [ ] Day 03 — How the TCP/IP Model Actually Works
 - [ ] Day 04 — Intro to the CLI
