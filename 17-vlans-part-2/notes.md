@@ -82,6 +82,9 @@ Limiting allowed VLANs improves **security** and reduces unnecessary traffic.
 switchport trunk native vlan 1001
 ```
 
+![alt text](image.png)
+
+
 ## 5. Router-on-a-Stick (ROAS)
 
 **Purpose:** Perform **inter-VLAN routing using one physical router interface**.
