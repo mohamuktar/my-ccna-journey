@@ -20,6 +20,11 @@ Blocking → Listening → Learning → Forwarding
 * Learning = builds MAC table
 * Forwarding = normal operation
 
+## random commands lol
+* do sh span vlan 1 (short form) instead of show spanning-tree
+* span vlan 1 cost 100 - this is for increasing cost of a particular int but first you enter that int
+* span vlan 1 port-priority 240 - this increases portpriority to 240 which is max but first you have to enter the int ie int f0/1 - remember port priority is the last tie breaker when decidiing root port
+
 ---
 
 ##  STP Timers
@@ -90,6 +95,11 @@ spanning-tree portfast default
 
 ##  BPDU Guard
 
+BPDU protects the network from unauthorized switches being connected to ports intended for end hosts - BPDU na portfast mostly used together - so add switch port inajiblock
+example:
+int f0/3
+spanning-tree portfast
+spanning-tree bpduguard enable
 If a BPDU is received on a BPDU Guard-enabled port:
 
 ```text
@@ -119,6 +129,8 @@ shutdown
 no shutdown
 ```
 
+![alt text](image.png)
+
 ---
 
 ##  Root Guard / Loop Guard
@@ -126,6 +138,7 @@ no shutdown
 ### Root Guard
 
 Prevents another switch from becoming the root by sending a **superior BPDU**.
+useful when connecting one LAN to another 
 
 ```text
 Root Guard → protects the root topology
@@ -331,3 +344,5 @@ Know that it carries STP information such as:
 ###  One-line mental model
 
 > **STP blocks redundant paths, slowly activates new paths, PortFast skips the waiting for end hosts, and BPDU Guard shuts down an end-host port if another switch appears.**
+
+
