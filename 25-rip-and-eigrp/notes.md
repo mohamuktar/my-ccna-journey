@@ -3,11 +3,11 @@
 ### RIP
 
 ```text
-RIP = distance-vector IGP
+RIP = distance-vector IGP - Uses routing by Rumour logic to learn routes
 Metric = hop count
 Maximum = 15 hops
-RIPv1 = classful + broadcast
-RIPv2 = classless + multicast
+RIPv1 = classful (❌️VLSM,❌️CIDR - no subnet info) + broadcast
+RIPv2 = classless(✅VLSM,✅CIDR - yes subnets info ie  /8 /16 /24) + multicast
 RIPv2 multicast = 224.0.0.9
 RIP AD = 120
 ```
@@ -46,23 +46,26 @@ router rip
 version 2
 no auto-summary
 network
-passive-interface
+passive-interface g0/0
+alfu weka gateway of last resort by ip route 0.0.0.0 <internet add> in glob config 
 default-information originate
 show ip protocols
-maximum-paths
+maximum-paths <1-32>
+distance <85> - to change AD ie to make RIP preffered over EIGRP OF 90
 ```
 
-And EIGRP:
+And EIGRP: Which is an Advanced Distance Vector Routing Protocol
 
 ```cisco
-router eigrp <AS>
+router eigrp <AS ie 1>
 no auto-summary
 network
 passive-interface
+
 eigrp router-id
 show ip protocols
 show ip route
-maximum-paths
+maximum-paths <1-32>
 ```
 
 ---
