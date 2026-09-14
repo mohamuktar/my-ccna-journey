@@ -26,33 +26,33 @@ My primary learning resource is **[Jeremy's IT Lab — Free CCNA 200-301 Complet
 ## Progress Tracker
 
 - [x] Day 01 — Network Devices
-- [ ] Day 02 — Interfaces and Cables
-- [ ] Day 03 — How the TCP/IP Model Actually Works
-- [ ] Day 04 — Intro to the CLI
-- [ ] Day 05 — Ethernet LAN Switching (Part 1)
-- [ ] Day 06 — Ethernet LAN Switching (Part 2)
-- [ ] Day 07 — IPv4 Addressing (Part 1)
-- [ ] Day 08 — IPv4 Addressing (Part 2)
-- [ ] Day 09 — Switch Interfaces
-- [ ] Day 10 — IPv4 Header
-- [ ] Day 11 — Routing Fundamentals / Static Routing
-- [ ] Day 12 — The Life of a Packet
-- [ ] Day 13 — Subnetting (Part 1)
-- [ ] Day 14 — Subnetting (Part 2)
-- [ ] Day 15 — Subnetting (Part 3 - VLSM)
-- [ ] Day 16 — VLANs (Part 1)
-- [ ] Day 17 — VLANs (Part 2)
-- [ ] Day 18 — VLANs (Part 3)
-- [ ] Day 19 — DTP/VTP
-- [ ] Day 20 — Spanning Tree Protocol (Part 1)
-- [ ] Day 21 — Spanning Tree Protocol (Part 2) / STP Toolkit
-- [ ] Day 22 — Rapid Spanning Tree Protocol
-- [ ] Day 23 — EtherChannel
-- [ ] Day 24 — Dynamic Routing
-- [ ] Day 25 — RIP & EIGRP
-- [ ] Day 26 — OSPF Part 1
-- [ ] Day 27 — OSPF Part 2
-- [ ] Day 28 — OSPF Part 3
+- [x] Day 02 — Interfaces and Cables
+- [x] Day 03 — How the TCP/IP Model Actually Works
+- [x] Day 04 — Intro to the CLI
+- [x] Day 05 — Ethernet LAN Switching (Part 1)
+- [x] Day 06 — Ethernet LAN Switching (Part 2)
+- [x] Day 07 — IPv4 Addressing (Part 1)
+- [x] Day 08 — IPv4 Addressing (Part 2)
+- [x] Day 09 — Switch Interfaces
+- [x] Day 10 — IPv4 Header
+- [x] Day 11 — Routing Fundamentals / Static Routing
+- [x] Day 12 — The Life of a Packet
+- [x] Day 13 — Subnetting (Part 1)
+- [x] Day 14 — Subnetting (Part 2)
+- [x] Day 15 — Subnetting (Part 3 - VLSM)
+- [x] Day 16 — VLANs (Part 1)
+- [x] Day 17 — VLANs (Part 2)
+- [x] Day 18 — VLANs (Part 3)
+- [x] Day 19 — DTP/VTP
+- [x] Day 20 — Spanning Tree Protocol (Part 1)
+- [x] Day 21 — Spanning Tree Protocol (Part 2) / STP Toolkit
+- [x] Day 22 — Rapid Spanning Tree Protocol
+- [x] Day 23 — EtherChannel
+- [x] Day 24 — Dynamic Routing
+- [x] Day 25 — RIP & EIGRP
+- [x] Day 26 — OSPF Part 1
+- [x] Day 27 — OSPF Part 2
+- [x] Day 28 — OSPF Part 3
 - [ ] Day 29 — First Hop Redundancy Protocols
 - [ ] Day 30 — TCP & UDP
 - [ ] Day 31 — IPv6 Part 1
