@@ -57,6 +57,7 @@ Problem:
 * **AVF** = Active Virtual Forwarder
 
 ---
+![alt text](image.png)
 
 # 3. HSRP
 
