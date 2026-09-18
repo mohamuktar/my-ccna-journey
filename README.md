@@ -117,4 +117,4 @@ My primary learning resource is **[Jeremy's IT Lab — Free CCNA 200-301 Complet
 
 ## Disclaimer
 
-This repository contains only my own personal notes and Packet Tracer lab files created while studying. No copyrighted course materials — videos, slides, flashcards, or any other content from Jeremy's IT Lab — are included or redistributed here.
+This repository contains only my own personal notes and Completed Packet Tracer lab files created while studying. No copyrighted course materials — videos, slides, flashcards, or any other content from Jeremy's IT Lab — are included or redistributed here.
