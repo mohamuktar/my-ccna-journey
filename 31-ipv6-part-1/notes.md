@@ -16,7 +16,7 @@ This lesson focuses mainly on **IPv6 addresses, prefixes, abbreviation, and basi
 
 IPv6 uses **hexadecimal (base 16)**.
 
-| Number system | Base | Digits     |
+| Number system | Base| Digits     |
 | ------------- | ---: | ---------- |
 | Binary        |    2 | `0–1`      |
 | Decimal       |   10 | `0–9`      |
