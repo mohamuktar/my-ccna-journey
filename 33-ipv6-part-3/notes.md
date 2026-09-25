@@ -334,7 +334,7 @@ Link-local addresses do **not** appear as normal routes in the routing table.
 Basic format:
 
 ```cisco
-ipv6 route <destination>/<prefix-length> <next-hop>
+ipv6 route <destination>/<prefix-length> <next-hop/exit-interface>
 ```
 
 Example:
@@ -447,6 +447,9 @@ IPv6 host route    → /128
 IPv6 network route → commonly /64
 ```
 
+![alt text](image.png)
+
+
 ---
 
 # 13. Floating Static Route
@@ -502,13 +505,13 @@ You **can use a link-local IPv6 address as a static-route next hop**, but you mu
 ❌ Not enough:
 
 ```cisco
-ipv6 route 2001:db8:0:3::/64 FE80::2
+ipv6 route 2001:db8:0:3::/64 FE80::EF8:22FF:FEE6:D300 
 ```
 
 ✅ Fully specified:
 
 ```cisco
-ipv6 route 2001:db8:0:3::/64 FE80::2 g0/0
+ipv6 route 2001:db8:0:3::/64 g0/0 FE80::EF8:22FF:FEE6:D300 
 ```
 
 Why?
