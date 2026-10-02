@@ -555,4 +555,3 @@ show access-lists
 show ip access-lists
 ```
 
-**The biggest Day 34 concepts to lock in:** **source IP only → wildcard masks → first match wins → implicit deny → apply in/out → place standard ACL close to destination.**
