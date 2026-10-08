@@ -160,12 +160,36 @@ And the configurable STP priority changes in increments of:
 
 > **4096**
 
+1) The switch with the lowest bridge ID is elected as the **root bridge**. All ports on the root bridge are **designated ports (forwarding state).**
+
+2) Each **remaining switch** will select **ONE** of its interfaces to be its **root port**. The interface with the **lowest root cost** will be the **root port**. Root ports are also in a forwarding state.
+
+![alt text](image.png)
+
+100Mbps = Fast ethernet = STP/root cost of 19
+
+### Spanning Tree Protocol
+1) One switch is elected as the root bridge. All ports on the root bridge are designated
+ports (forwarding state). Root bridge selection:
+1: Lowest bridge ID
+
+2) Each remaining switch will select ONE of its interfaces to be its root port (forwarding
+state). Ports across from the root port are always designated ports.
+Root port selection:
+1: Lowest root cost
+2: Lowest neighbor bridge ID
+3: Lowest neighbor port ID
+
+3) Each remaining collision domain will select ONE interface to be a designated port
+(forwarding state). The other port in the collision domain will be non-designated
+(blocking)
+Designated port selection:
+
 
 ---
 
 # 🧠 Day 20 Cheat Sheet
 
-Put this in your notes:
 
 ```text
 STP — Spanning Tree Protocol
@@ -202,11 +226,4 @@ Extended System ID:
 → STP priority changes in increments of 4096
 ```
 
-### Memorize these 5 lines :
-
-> **STP prevents Layer 2 loops.**
-> **It blocks redundant paths.**
-> **BPDUs are used to communicate STP information.**
-> **Lowest Bridge ID becomes Root Bridge.**
-> **If priority ties, lowest MAC address wins.**
 

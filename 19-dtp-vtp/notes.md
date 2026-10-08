@@ -22,6 +22,7 @@ The important modes:
 
 🔥 **The big rule:**
 
+
 > **Desirable actively tries. Auto waits.**
 
 So:
