@@ -11,30 +11,18 @@
 
 ## Key Commands
 
-Windows
+### DNS — CCNA Notes
 
-```
-ipconfig /all
-nslookup youtube.com
-ipconfig /displaydns
-ipconfig /flushdns
-```
+- **DNS:** Resolves domain names to IP addresses.
+- **DNS server:** Answers DNS queries.
+- **DNS client:** Queries a DNS server to resolve names.
+- `ip host PC1 192.168.1.10` — Creates a local hostname-to-IP mapping.
+- `ip dns server` — Configures the router to act as a DNS server.
+- `ip name-server 8.8.8.8` — Specifies a DNS server for the router to query.
+- `ip domain lookup` — Enables DNS lookups on the router.
+- `ip domain name example.com` — Configures the router's domain name.
+- `show hosts` — Displays local host mappings and hostname cache information.
 
-Cisco IOS — DNS client
-
-```
-ip name-server 8.8.8.8
-ip domain lookup
-ip domain name example.com
-```
-
-Cisco IOS — DNS server
-
-```
-ip dns server
-ip host PC1 192.168.1.10
-show hosts
-```
 
 ## Remember
 
