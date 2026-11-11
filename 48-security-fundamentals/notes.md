@@ -9,7 +9,7 @@ The three foundations of information security:
 | Confidentiality | Only authorized users can access data.                           |
 | Integrity       | Data must not be modified by unauthorized users.                 |
 | Availability    | Systems and networks must remain accessible to authorized users. |
-
+ 
 ## 2. Key Security Concepts
 
 - Vulnerability: A potential weakness in a system.
@@ -18,9 +18,9 @@ The three foundations of information security:
 - Mitigation: A technique used to protect against threats.
 
 No system is 100% secure.
-
+ 
 ## 3. Common Attacks
-
+ 
 | Attack                   | Description                                                               | Main impact                   |
 | ------------------------ | ------------------------------------------------------------------------- | ----------------------------- |
 | DoS                      | Overwhelms a system so legitimate users cannot access it.                 | Availability                  |
