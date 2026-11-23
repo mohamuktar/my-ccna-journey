@@ -12,11 +12,11 @@ This repository documents my complete journey through the **Cisco CCNA (200-301)
 
 ## Repository Structure
 
-Each lesson folder is numbered to match its day in the course (e.g. `01-network-devices`, `02-interfaces-and-cables`) and contains exactly two files:
+Each lesson folder is numbered to match its day in the course (e.g. `01-network-devices`, `02-interfaces-and-cables`) and contains multiple files for example:
 
 | File | Purpose |
 |------|---------|
-| `notes.md` | My personal study notes for the lesson — key concepts, IOS commands, diagrams, and takeaways |
+| `notes.md` | Revison study notes for the lesson — key concepts, IOS commands, diagrams, and takeaways |
 | `lab.pkt` | The Cisco Packet Tracer lab file where I practice the lesson's configuration hands-on |
 
 ## Learning Resources
@@ -53,42 +53,44 @@ My primary learning resource is **[Jeremy's IT Lab — Free CCNA 200-301 Complet
 - [x] Day 26 — OSPF Part 1
 - [x] Day 27 — OSPF Part 2
 - [x] Day 28 — OSPF Part 3
-- [ ] Day 29 — First Hop Redundancy Protocols
-- [ ] Day 30 — TCP & UDP
-- [ ] Day 31 — IPv6 Part 1
-- [ ] Day 32 — IPv6 Part 2
-- [ ] Day 33 — IPv6 Part 3
-- [ ] Day 34 — Standard ACLs
-- [ ] Day 35 — Extended ACLs
-- [ ] Day 36 — CDP & LLDP
-- [ ] Day 37 — NTP
-- [ ] Day 38 — DNS
-- [ ] Day 39 — DHCP
-- [ ] Day 40 — SNMP
-- [ ] Day 41 — Syslog
-- [ ] Day 42 — SSH
-- [ ] Day 43 — FTP & TFTP
-- [ ] Day 44 — NAT (Part 1)
-- [ ] Day 45 — NAT (Part 2)
-- [ ] Day 46 — QoS (Part 1)
-- [ ] Day 47 — QoS (Part 2)
-- [ ] Day 48 — Security Fundamentals
-- [ ] Day 49 — Port Security
-- [ ] Day 50 — DHCP Snooping
-- [ ] Day 51 — Dynamic ARP Inspection
-- [ ] Day 52 — LAN Architectures
-- [ ] Day 53 — WAN Architectures
-- [ ] Day 54 — Virtualization & Cloud / Containers / VRF
-- [ ] Day 55 — Wireless Fundamentals
-- [ ] Day 56 — Wireless Architectures
-- [ ] Day 57 — Wireless Security
-- [ ] Day 58 — Wireless Configuration
-- [ ] Day 59 — Intro to Network Automation / AI & Machine Learning
-- [ ] Day 60 — JSON, XML, & YAML
-- [ ] Day 61 — REST APIs / REST API Authentication
-- [ ] Day 62 — Software-Defined Networking
-- [ ] Day 63 — Ansible, Puppet, & Chef / Terraform
-- [ ] Bonus — CCNA Mega Lab (Complete Network Configuration)
+- [x] Day 29 — First Hop Redundancy Protocols
+- [x] Day 29 — First Hop Redundancy Protocols
+- [x] Day 29 — First Hop Redundancy Protocols
+- [x] Day 30 — TCP & UDP
+- [x] Day 31 — IPv6 Part 1
+- [x] Day 32 — IPv6 Part 2
+- [x] Day 33 — IPv6 Part 3
+- [x] Day 34 — Standard ACLs
+- [x] Day 35 — Extended ACLs
+- [x] Day 36 — CDP & LLDP
+- [x] Day 37 — NTP
+- [x] Day 38 — DNS
+- [x] Day 39 — DHCP
+- [x] Day 40 — SNMP
+- [x] Day 41 — Syslog
+- [x] Day 42 — SSH
+- [x] Day 43 — FTP & TFTP
+- [x] Day 44 — NAT (Part 1)
+- [x] Day 45 — NAT (Part 2)
+- [x] Day 46 — QoS (Part 1)
+- [x] Day 47 — QoS (Part 2)
+- [x] Day 48 — Security Fundamentals
+- [x] Day 49 — Port Security
+- [x] Day 50 — DHCP Snooping
+- [x] Day 51 — Dynamic ARP Inspection
+- [x] Day 52 — LAN Architectures
+- [x] Day 53 — WAN Architectures
+- [x] Day 54 — Virtualization & Cloud / Containers / VRF
+- [x] Day 55 — Wireless Fundamentals
+- [x] Day 56 — Wireless Architectures
+- [x] Day 57 — Wireless Security
+- [x] Day 58 — Wireless Configuration
+- [x] Day 59 — Intro to Network Automation / AI & Machine Learning
+- [x] Day 60 — JSON, XML, & YAML
+- [x] Day 61 — REST APIs / REST API Authentication
+- [x] Day 62 — Software-Defined Networking
+- [x] Day 63 — Ansible, Puppet, & Chef / Terraform
+- [] Bonus — CCNA Mega Lab (Complete Network Configuration)
 
 ## Technologies
 
@@ -115,6 +117,14 @@ My primary learning resource is **[Jeremy's IT Lab — Free CCNA 200-301 Complet
 - Network Security
 - Network Automation
 
-## Disclaimer
+## Credits and Acknowledgements
 
-This repository contains only my own personal notes and Completed Packet Tracer lab files created while studying. No copyrighted course materials — videos, slides, flashcards, or any other content from Jeremy's IT Lab — are included or redistributed here.
+This repository contains my personal study notes and completed Cisco Packet Tracer labs created throughout my CCNA learning journey.
+
+The learning materials, explanations, and lab exercises are based on **Jeremy’s IT Lab**, whose free YouTube CCNA course has been an invaluable resource throughout this journey.
+
+**All credit and appreciation for the original lessons, teaching, and lab instructions go to Jeremy’s IT Lab.** The notes are my own study summaries, and the Packet Tracer files represent my completed work based on the labs demonstrated in his videos.
+
+No copyrighted course videos, slides, flashcards, or other original course materials are included or redistributed in this repository.
+
+This repository is shared for personal learning, documentation, and educational purposes. Please visit Jeremy’s IT Lab on YouTube to access the original free course and support his work.
